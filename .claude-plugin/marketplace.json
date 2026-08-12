@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Marketplace do qe-kit — skills de engenharia de qualidade para Claude Code.",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "qe-kit",
       "source": ".",
       "description": "Skills composáveis de engenharia de qualidade: revisão de PR com lentes paralelas, testes de integração que provam alguma coisa, cobertura de critérios de aceite, diagnóstico de performance e autoria de testes de API.",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "category": "testing"
     }
   ]
