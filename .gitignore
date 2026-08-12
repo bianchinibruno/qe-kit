@@ -1,0 +1,17 @@
+# Configuração local, nunca versionada — é onde moram URLs, tokens e nomes internos
+qe-kit.local.json
+.env
+.env.*
+
+# Análises geradas em disco
+raio-x.md
+
+# Node
+node_modules/
+dist/
+coverage/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db

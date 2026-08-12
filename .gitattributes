@@ -1,0 +1,4 @@
+# Normaliza tudo para LF. Sem isso, os scripts .sh chegam ao runner Linux com CRLF
+# e o shebang quebra com "bad interpreter".
+* text=auto eol=lf
+*.sh text eol=lf
