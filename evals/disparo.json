@@ -1,0 +1,93 @@
+{
+  "descricao": "Evals de disparo do qe-kit. Cada query é algo que um usuário real diria. `alvo` é a skill que deve disparar, ou null quando nenhuma deve. O foco são os vizinhos próximos: queries que compartilham vocabulário entre skills irmãs e poderiam disparar a errada.",
+  "queries": [
+    {
+      "query": "revisa esse PR aqui antes de eu mergear na develop, quero saber se tem algum bug escondido",
+      "alvo": "revisao-pr-multiagente"
+    },
+    {
+      "query": "dá uma olhada no diff da minha branch feat/pagamentos e me fala o que tá errado",
+      "alvo": "revisao-pr-multiagente"
+    },
+    {
+      "query": "faz um code review completo, olha correção, segurança, os testes, tudo",
+      "alvo": "revisao-pr-multiagente"
+    },
+    {
+      "query": "abre o pull request dessa branch pra main com a descrição no padrão",
+      "alvo": "abrir-pr"
+    },
+    {
+      "query": "manda o PR aí, já terminei a task de pagamentos",
+      "alvo": "abrir-pr"
+    },
+    {
+      "query": "meus testes de integração passam mas eu sei que tem bug no código, será que os testes tão fracos?",
+      "alvo": "testes-de-integracao"
+    },
+    {
+      "query": "escreve testes de integração pro módulo de pagamento, quero que peguem o retry duplicado de verdade",
+      "alvo": "testes-de-integracao"
+    },
+    {
+      "query": "essa suíte tá cheia de toBeDefined, fortalece as asserções pra provar alguma coisa",
+      "alvo": "testes-de-integracao"
+    },
+    {
+      "query": "gera os testes de API pros endpoints novos de cobrança, cobre os casos de erro e de autorização",
+      "alvo": "autoria-de-testes-api"
+    },
+    {
+      "query": "o contrato do endpoint mudou, valorCentavos virou obrigatório, atualiza os testes de API afetados",
+      "alvo": "autoria-de-testes-api"
+    },
+    {
+      "query": "deriva os casos de teste do contrato de POST /clientes, quero cada campo obrigatório testado",
+      "alvo": "autoria-de-testes-api"
+    },
+    {
+      "query": "cruza os critérios de aceite do card com a suíte e me diz o que não tem teste",
+      "alvo": "cobertura-de-criterios"
+    },
+    {
+      "query": "monta a matriz de rastreabilidade dos ACs dessa task, quais tão cobertos e quais não",
+      "alvo": "cobertura-de-criterios"
+    },
+    {
+      "query": "a API tá lenta em produção, roda um teste de carga e me diz qual é o gargalo",
+      "alvo": "diagnostico-de-performance"
+    },
+    {
+      "query": "o p95 do endpoint de listagem subiu pra 900ms, investiga com k6",
+      "alvo": "diagnostico-de-performance"
+    },
+    {
+      "query": "gera a coleção Bruno com todos os endpoints da API pra eu navegar as requests",
+      "alvo": "colecao-api"
+    },
+    {
+      "query": "documenta os endpoints numa coleção que eu possa versionar junto com o código",
+      "alvo": "colecao-api"
+    },
+    {
+      "query": "escreve um teste unitário pra função de cálculo de juros, é uma função pura sem I/O",
+      "alvo": null
+    },
+    {
+      "query": "faz um teste E2E no cypress simulando o usuário preenchendo o formulário de checkout no navegador",
+      "alvo": null
+    },
+    {
+      "query": "explica a diferença entre teste de integração e teste de contrato pra eu apresentar pro time",
+      "alvo": null
+    },
+    {
+      "query": "conserta o bug de idempotência do endpoint de pagamento que a revisão apontou",
+      "alvo": null
+    },
+    {
+      "query": "escreve a documentação de arquitetura do serviço de cobrança com os diagramas de fluxo",
+      "alvo": null
+    }
+  ]
+}
