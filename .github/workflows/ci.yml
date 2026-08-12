@@ -1,0 +1,19 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  higiene:
+    name: Higiene do repositório
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vazamento de contexto interno ou segredo
+        run: bash scripts/check-leaks.sh
+
+      - name: Contrato das skills
+        run: bash scripts/check-skills.sh
