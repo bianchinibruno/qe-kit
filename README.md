@@ -35,7 +35,7 @@ claude --plugin-dir /caminho/para/qe-kit
 
 | Skill | O que faz | Status |
 |---|---|---|
-| `revisao-pr-multiagente` | Revisa um PR com 6 lentes independentes em paralelo — correção, contrato, teste, dados/estado, segurança e simplificação — depois deduplica e ranqueia por severidade | ⬜ planejada |
+| `revisao-pr-multiagente` | Revisa um PR com 6 lentes independentes em paralelo — correção, contrato, teste, dados/estado, segurança e simplificação — depois deduplica e ranqueia por severidade | ✅ pronta |
 | `testes-de-integracao` | Mapeia os pontos de integração reais do repositório, escreve os testes e valida que cada asserção prova alguma coisa | ⬜ planejada |
 | `cobertura-de-criterios` | Cruza critérios de aceite com a suíte e devolve uma matriz: coberto, parcial ou descoberto — apontando qual teste prova cada um | ⬜ planejada |
 | `diagnostico-de-performance` | Conduz teste de carga com k6 e interpreta o resultado: separa latência de saturação e aponta a causa provável do gargalo | ⬜ planejada |
