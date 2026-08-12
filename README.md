@@ -38,7 +38,7 @@ claude --plugin-dir /caminho/para/qe-kit
 | `revisao-pr-multiagente` | Revisa um PR com 6 lentes independentes em paralelo — correção, contrato, teste, dados/estado, segurança e simplificação — depois deduplica e ranqueia por severidade | ✅ pronta |
 | `testes-de-integracao` | Mapeia os pontos de integração reais do repositório, escreve os testes e valida que cada asserção prova alguma coisa | ✅ pronta |
 | `cobertura-de-criterios` | Cruza critérios de aceite com a suíte e devolve uma matriz: coberto, parcial ou descoberto — apontando qual teste prova cada um | ✅ pronta |
-| `diagnostico-de-performance` | Conduz teste de carga com k6 e interpreta o resultado: separa latência de saturação e aponta a causa provável do gargalo | ⬜ planejada |
+| `diagnostico-de-performance` | Conduz teste de carga com k6 e interpreta o resultado: separa latência de saturação e aponta a causa provável do gargalo | ✅ pronta |
 | `autoria-de-testes-api` | Deriva testes de API do código-fonte — caminho feliz, borda, erro e autorização — e mantém a suíte quando o contrato muda | ⬜ planejada |
 | `colecao-api` | Gera uma coleção de API navegável a partir das rotas e schemas do repositório | ⬜ planejada |
 | `abrir-pr` | Deriva um pull request dos commits da branch — título em Conventional Commits (inglês) e corpo estruturado (português) com Tarefa, Descrição, Pontos de Impacto, Análise de Riscos e Guia de Fluxo — e abre via `gh` após confirmação | ✅ pronta |
