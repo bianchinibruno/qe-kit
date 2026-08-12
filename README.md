@@ -40,7 +40,7 @@ claude --plugin-dir /caminho/para/qe-kit
 | `cobertura-de-criterios` | Cruza critérios de aceite com a suíte e devolve uma matriz: coberto, parcial ou descoberto — apontando qual teste prova cada um | ✅ pronta |
 | `diagnostico-de-performance` | Conduz teste de carga com k6 e interpreta o resultado: separa latência de saturação e aponta a causa provável do gargalo | ✅ pronta |
 | `autoria-de-testes-api` | Deriva testes de API do código-fonte — caminho feliz, borda, erro e autorização — e mantém a suíte quando o contrato muda | ✅ pronta |
-| `colecao-api` | Gera uma coleção de API navegável a partir das rotas e schemas do repositório | ⬜ planejada |
+| `colecao-api` | Gera uma coleção de API navegável a partir das rotas e schemas do repositório | ✅ pronta |
 | `abrir-pr` | Deriva um pull request dos commits da branch — título em Conventional Commits (inglês) e corpo estruturado (português) com Tarefa, Descrição, Pontos de Impacto, Análise de Riscos e Guia de Fluxo — e abre via `gh` após confirmação | ✅ pronta |
 
 Cada skill declara o que **não** faz. Uma skill que dispara fora de hora custa mais do que uma
